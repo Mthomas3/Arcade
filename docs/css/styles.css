@@ -1,0 +1,233 @@
+/* CSS file for additionnal components 
+ * Copyright 2015, Arcade - Martins Thomas
+ * version v0.1
+ */
+
+ .wiki-header-left {
+    margin-bottom: 1.5em;
+ }
+
+ .wiki-header p {
+    margin: 0 0 1.4em 0;
+    padding: 0;
+ }
+
+  .wiki-header-left h1 {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+ .wiki-header-left p.claim {
+    margin-bottom: 0;
+    font-size: .875em;
+}
+ 
+ h1, h2, h3, h4, h5, h6 {
+    font-weight: bold !important;
+    line-height: 1.2 !important;
+    clear: left !important;
+}
+
+#wiki-content-main h1 {
+    font-size: 2em;
+    margin: 0 0 .444em;
+}
+
+#wiki-content-main h2 {
+    padding-top: 15px;
+    font-size: 1.5em;
+    margin: 0 0 .666em;
+}
+
+#pageId {
+    float: right;
+    font-size: .875em !important;
+    border: solid #eee !important;
+    border-width: 1px 1px 0 !important;
+    background-color: #fff !important;
+    color: #999 !important;
+    padding: .1em .35em !important;
+    border-top-left-radius: 2px !important;
+    border-top-right-radius: 2px !important;
+    box-shadow: 0 0 .5em #999 !important;
+    display: block !important;
+}
+
+#pageId a {
+    color: #999 !important;
+}
+
+#wiki-nav-right {
+	margin: -1.556em -2em .5em 1.4em;
+    width: 16em;
+    border-left: 1px solid #ccc;
+    background: #fff;
+    color: inherit;
+    float: right;
+}
+
+#wiki-nav-right h6 {
+	padding: .5em 1em;
+    margin-bottom: 0;
+    font-size: .875em;
+    letter-spacing: .1em
+}
+
+#wiki-nav-right h3 {
+    margin-bottom: 0;
+    font-size: .875em;
+    letter-spacing: .1em
+}
+
+#wiki-nav-right ul li {
+    padding-right: 15px;
+    font-size: 13.00px;
+    line-height: 1.3;
+    list-style-type: none !important;
+	list-style-image: url(https://dl.dropboxusercontent.com/u/84919020/rs-web/toc-bullet.png) !important;
+}
+
+ul li {
+     list-style-type: none !important;
+    list-style-image: url(https://dl.dropboxusercontent.com/u/84919020/rs-web/toc-bullet.png) !important;
+}
+
+.wiki-content {
+	height: auto;
+	clear: both;
+    background: #fff;
+    color: inherit;
+    border: 1px solid #eee;
+    box-shadow: 0 0 .5em #999;
+    border-radius: 2px;
+    padding: 1.556em 2em 2em;
+    margin-bottom: .5em;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.breadcrumb a:hover, a span:hover {
+    color: #555 !important;
+}
+.breadcrumb {
+	border-top: 1px solid #ccc;
+    border-bottom: 1px solid #fff;
+    margin-bottom: .5em;
+    font-size: .875em;
+    clear: both;
+    background-color: #fff !important;
+}
+
+ #wiki-header h1 a {
+ 	font-size: 0.8em;
+    font-weight: normal;
+ 	color: #333 !important;
+ }
+
+body {
+	font-family: Arial !important;
+}
+
+.group-header {
+	display: block;
+}
+
+@media (max-width: 768px) {
+    #wiki {
+    margin: 0 auto;
+    max-width: 100% !important;
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+    }
+#wiki-nav-right {
+    padding-left: 18.88%;
+    margin-bottom: 2.0em;
+    margin-top: inherit;
+    margin-left: inherit;
+    margin-right: inherit;
+    text-align: left;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    border-left: none;
+    background: #fff;
+    color: inherit;
+    float: inherit;
+}
+
+
+}
+
+#wiki {
+	margin: 0 auto;
+	max-width: 90em;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+#wiki-header {
+	width: 100%;
+	padding: 2em 0 1.5em;
+}
+
+.wiki-container {
+	padding-right: 40px;
+    padding-left: 40px;
+}
+
+.wiki-container-content {
+	background-color: #F8F8F8;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	border-color: #e7e7e7;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	width: 90% !important;
+}
+
+ .ap-nav-left {
+ 	position: absolute;
+ 	font-size: inherit;
+    margin-top: -1px;
+    background-color: #ffffff;
+    color: #252525;
+    direction: ltr;
+ 	padding-top: 1em;
+    width: 10em;
+    left: 0;
+ 	margin: 0 0.6em 0 0.7em;
+    padding: 0.25em 0;
+ }
+
+ .ap-nav-logo {
+
+ }
+
+ .ap-nav-content {
+ 	border-right: 1px solid #a7d7f9;
+ }
+
+ a {
+ 	text-decoration: none !important;
+ }
+
+.ap-title {
+	font-weight: 400 !important;
+	color: #31708f !important;
+	font-size: 11px !important;
+	text-transform: uppercase !important;
+	letter-spacing: 0.09em !important;
+}
+
+.ap-title-inherit {
+  font-weight: 400 !important;
+  color: #31708f !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.09em !important;
+}
+
+.ap-title-small {
+	font-weight: 300 !important;
+	text-transform: uppercase !important;
+	letter-spacing: 0.09em !important;
+}

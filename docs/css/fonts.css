@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'raleway';
+    src: url('fonts/raleway/Raleway-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'expansiva';
+    src: url('fonts/expansiva/Expansiva.otf');
+}
+
+@font-face {
+    font-family: 'keep_calm';
+    src: url('fonts/keep_calm/KeepCalm-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'primetime';
+    src: url('fonts/expansiva/primetime.ttf');
+}
+
+@font-face {
+    font-family: 'lato';
+    src: url('fonts/lato/Lato-Regular.otf');
+}
+
+@font-face {
+    font-family: 'monserrat';
+    src: url('fonts/monserrat/Montserrat-Regular.otf');
+}
+
+@font-face {
+    font-family: 'exo';
+    src: url('fonts/exo/Exo-Regular.otf');
+}
+@font-face {
+    font-family: 'exo-bold';
+    src: url('fonts/exo/Exo-SemiBold.otf');
+}
+
+.exo {
+	font-family: 'exo' !important;
+}
+
+.exo-bold {
+    font-family: 'exo-bold' !important;
+}
+
+.monserrat {
+	font-family: 'monserrat' !important;
+}
+.lato {
+	font-family: 'lato' !important;
+}
+
+.keep_calm {
+	font-family: 'keep_calm' !important;
+}
+.primetime {
+	font-family: 'primetime' !important;
+}
+.expansiva {
+	font-family: 'expansiva' !important;
+}
